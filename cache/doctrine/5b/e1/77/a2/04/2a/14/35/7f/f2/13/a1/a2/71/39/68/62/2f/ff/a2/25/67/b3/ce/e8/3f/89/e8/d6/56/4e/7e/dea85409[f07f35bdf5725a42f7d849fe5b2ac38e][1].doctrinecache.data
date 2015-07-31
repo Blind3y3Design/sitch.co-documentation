@@ -1,0 +1,255 @@
+1438921456
+s:7701:"<h1>[Insert: Application Name]</h1>
+<h2>Functional Specification Document</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Modified</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Created by</td>
+<td style="text-align: left;">[Insert: Company Name]</td>
+</tr>
+<tr>
+<td style="text-align: left;">Creation Date</td>
+<td style="text-align: left;">[Insert: Date Created]</td>
+</tr>
+<tr>
+<td style="text-align: left;">Last Modified</td>
+<td style="text-align: left;">[Insert: Last Modified Date]</td>
+</tr>
+<tr>
+<td style="text-align: left;">Status</td>
+<td style="text-align: left;">[Insert: Draft/Release]</td>
+</tr>
+<tr>
+<td style="text-align: left;">Version</td>
+<td style="text-align: left;">[Insert: Version Number]</td>
+</tr>
+<tr>
+<td style="text-align: left;">Confidentiality</td>
+<td style="text-align: left;">[Insert: Public/Private]</td>
+</tr>
+<tr>
+<td style="text-align: left;">Copyright</td>
+<td style="text-align: left;">[Insert: Company Name]</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Table Of Contents</h2>
+<ul>
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#purpose">Purpose and Scope</a></li>
+<li><a href="#keyfeatures">Key Features</a></li>
+<li><a href="#relateddocs">Related Documents</a></li>
+<li><a href="#assumptions">Assumptions</a></li>
+<li><a href="#revisionhistory">Revision History</a></li>
+<li><a href="#openissues">Open Issues</a></li>
+<li><a href="#functionalmodules">Functional Modules</a></li>
+<li><a href="#commonfunctionality">Common Functionality</a></li>
+<li><a href="#infomap">Information Map</a></li>
+<li><a href="#userstories">User Stories</a></li>
+<li><a href="#errorcases">Error Cases</a></li>
+<li><a href="#mocks">Mock-up Screens</a></li>
+<li><a href="#iphone">iPhone Specific Functionality</a></li>
+<li><a href="#android">Android Specific Functionality</a></li>
+<li><a href="#windows">Windows Phone Specific Functionality</a></li>
+<li><a href="#blackberry">Blackberry Specific Functionality</a></li>
+<li><a href="#symbian">Symbian Specific Functionality</a></li>
+</ul>
+<h2><a name="intro"></a>Introduction</h2>
+<p>This document presents the functional specification of the application that will be delivered for each mobile platform.</p>
+<h3><a name="purpose"></a>Purpose and Scope</h3>
+<p>Define what the App's purpose is, for example "To give users alternate access experience to their Facebook account".</p>
+<p>Outline the Scope, this is the boundaries the App will work within, so for example: This App will not be supporting the Chinese market only the EU.</p>
+<h3><a name="keyfeatures"></a>Key Features</h3>
+<p>Briefly list the key features of the App here, don't go in to detail, just a high level list.</p>
+<ul>
+<li>Key Feature </li>
+<li>Key Feature </li>
+<li>Key Feature </li>
+</ul>
+<h3><a name="relateddocs"></a>Related Documents</h3>
+<p>List or link to any other related documentation here, this could be an external set of screens, a link to a prototype, assets files or anything.</p>
+<h3><a name="assumptions"></a>Assumptions</h3>
+<table>
+<thead>
+<tr>
+<th>Number</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td style="text-align: left;">Only iOS7 and above supported</td>
+</tr>
+<tr>
+<td>2</td>
+<td style="text-align: left;">User has internet connection</td>
+</tr>
+<tr>
+<td>3</td>
+<td style="text-align: left;">The application will be localised for UK only</td>
+</tr>
+</tbody>
+</table>
+<h3><a name="revisionhistory"></a>Revision History</h3>
+<p>You may not need this table if you use an online system to maintain the document, it's mostly for the Word users.</p>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th style="text-align: left;">Editor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td style="text-align: left;">Vincent Pickering</td>
+</tr>
+</tbody>
+</table>
+<h3><a name="openissues"></a>Open Issues</h3>
+<p>You may not need this table if you use an online system to maintain the document, it's mostly for the Word users.</p>
+<table>
+<thead>
+<tr>
+<th>Issue ID</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AB1</td>
+<td style="text-align: left;">Revise the logo to use the correct brand colour</td>
+</tr>
+</tbody>
+</table>
+<h2><a name="functionalmodules"></a>Functional Modules</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th style="text-align: left;">Description</th>
+<th style="text-align: right;">Revision</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CB1</td>
+<td style="text-align: left;">The application will minimise network usage</td>
+<td style="text-align: right;">1.0</td>
+</tr>
+<tr>
+<td>CB2</td>
+<td style="text-align: left;">The black and white colours Will invert at night</td>
+<td style="text-align: right;">1.0</td>
+</tr>
+</tbody>
+</table>
+<h2><a name="commonfunctionality"></a>Common Functionality</h2>
+<ul>
+<li>Wire-frames</li>
+<li>Mock-ups</li>
+<li>Measurements</li>
+<li>General</li>
+<li>Function 1</li>
+<li>Function 2</li>
+<li>Function 3</li>
+<li>Function 4</li>
+</ul>
+<h3><a name="infomap"></a>Information Map</h3>
+<ul>
+<li>Information Map Diagram</li>
+</ul>
+<h3><a name="userstories"></a>User Stories</h3>
+<ul>
+<li>As a <strong><strong>, I can </strong></strong> so that ____</li>
+<li>As a <strong><strong>, I can </strong></strong> so that ____</li>
+<li>As a <strong><strong>, I can </strong></strong> so that ____</li>
+<li>As a <strong><strong>, I can </strong></strong> so that ____</li>
+</ul>
+<h3><a name="errorcases"></a>Error Cases</h3>
+<table>
+<thead>
+<tr>
+<th>Ref</th>
+<th style="text-align: left;">Error Behaviour</th>
+<th>Related to</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AB1</td>
+<td style="text-align: left;">When a user incorrectly enters their password, display an error message</td>
+<td>BA1</td>
+</tr>
+<tr>
+<td>AB2</td>
+<td style="text-align: left;">When a user incorrectly enters their username, display an error message</td>
+<td>BA2</td>
+</tr>
+</tbody>
+</table>
+<h3><a name="mocks"></a>Mock-up Screens</h3>
+<p>If you are only working on one platform add each screen here with a reference. Otherwise, add them under each specific platform below.</p>
+<h2><a name="iphone"></a>iPhone Specific Functionality</h2>
+<p>Describe key features unique to this device.</p>
+<p>Remember to cross-reference features so that they can be tracked easily.</p>
+<p>Include:</p>
+<ul>
+<li>Screen-shots </li>
+<li>Wire-frames</li>
+<li>Use Cases</li>
+<li>Error Cases </li>
+<li>Screens</li>
+</ul>
+<h2><a name="android"></a>Android Specific Functionality</h2>
+<p>Describe key features unique to this device.</p>
+<p>Remember to cross-reference features so that they can be tracked easily.</p>
+<p>Include:</p>
+<ul>
+<li>Screen-shots </li>
+<li>Wire-frames</li>
+<li>Use Cases</li>
+<li>Error Cases </li>
+<li>Screens</li>
+</ul>
+<h2><a name="windows"></a>Windows Phone Specific Functionality</h2>
+<p>Describe key features unique to this device.</p>
+<p>Remember to cross-reference features so that they can be tracked easily.</p>
+<p>Include:</p>
+<ul>
+<li>Screen-shots </li>
+<li>Wire-frames</li>
+<li>Use Cases</li>
+<li>Error Cases </li>
+<li>Screens</li>
+</ul>
+<h2><a name="blackberry"></a>Blackberry Specific Functionality</h2>
+<p>Describe key features unique to this device.</p>
+<p>Remember to cross-reference features so that they can be tracked easily.</p>
+<p>Include:</p>
+<ul>
+<li>Screen-shots </li>
+<li>Wire-frames</li>
+<li>Use Cases</li>
+<li>Error Cases </li>
+<li>Screens</li>
+</ul>
+<h2><a name="symbian"></a>Symbian Specific Functionality</h2>
+<p>Describe key features unique to this device.</p>
+<p>Remember to cross-reference features so that they can be tracked easily.</p>
+<p>Include:</p>
+<ul>
+<li>Screen-shots </li>
+<li>Wire-frames</li>
+<li>Use Cases</li>
+<li>Error Cases </li>
+<li>Screens</li>
+</ul>";

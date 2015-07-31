@@ -1,0 +1,48 @@
+1438914588
+s:6143:"<h2>Working with Situation Dev</h2>
+<h2>Development</h2>
+<ul>
+<li><strong>No Hardcoding of URLs</strong>: Please do not hard code URLs or IP Addresses.  When we move servers to our production server, we don't want anything pointing back to our dev server.</li>
+<li><strong>Pre-Processors</strong>: Most of us use CSS pre-processors.  We like <em>Sass</em> more, but if you prefer <em>Less</em>, that's cool.  Just give us a source file.  And BTW - any other pre-processor may require a conversation with us.</li>
+<li><strong>Working with Images</strong>: Our designers give you PSDs.  We want text and you do too.  We prefer that you don't have images with text in them (except for logos and stuff).  We prefer that all images have HTML text overlaying them for easy updates and...that thing called Google.
+<ul>
+<li>When working with Social or Theatre Icons, an SVG would be prefered over a PNG. They're more versatile and scalable. Examples can be found on the <a href="http://colorpurple.com/" target="_blank" rel="nofollow" class="external-link no-image">ColorPurple</a> site. If you need a new icon please check <a href="http://dev.bowdenweb.com/a/i/cons/icomoon/svg/" target="_blank" rel="nofollow" class="external-link no-image">here</a> first, and verify if the icon is correct with a designer.</li>
+</ul></li>
+<li><strong>Mobile Friendly</strong>: We prefer a responsive site, but sometimes it just ain't feasible in our timelines or with the client's vision for mobile (but most of the time responsive happens).  You can make it adaptive or a separate mobile experience.  <em>It just has to past Google's mobile friendly test</em>.</li>
+<li><strong>WordPress Back-End</strong>: We are building all our sites WordPress.  Our team at Situation who does the content has become accustom to a certain interface.  Make it easy and familiar for them, build it the "Situation Way".  If you haven't already grabbed our WordPress install, you can also grab documentation <a href="#">here</a>.</li>
+<li><strong>Web Fonts</strong>: We want you to use <em>Web Font Loader</em> to optimize font loading and we want you to make your own font package in order to minimize the "k" size to just the fonts we need from either <em>Fonts.com</em>, <em>Typekit</em> or <em>Typography.com</em>.  Credentials available upon request.
+<ul>
+<li><em>Note</em>: Fonts loaded from <em>Typography.com</em> will not work with <em>Web Font Loader</em> and must be added to the site and server using their specific implementation.</li>
+</ul></li>
+<li><strong>Server Side Detection</strong>: Please always use widths as opposed to device sniffing when building a site out.  However, there are some exceptions to this, but they should be done client side through <em>JavaScript</em> so we don't interrupt any caching plugins we are using:
+<ul>
+<li>Device sniffing for when a phone number should be clicked to call.</li>
+<li>Other instances such as geo-location that relate to the mobile only experience that can occur on both iPad and iPhone or their equivalent Android devices.  </li>
+</ul></li>
+<li><strong>Plugins</strong>: Over the years, we have trusted these WordPress plugins and if they don't come with your WP install, then you should install them.
+<ul>
+<li>Yoast SEO</li>
+<li>CMS Page Order</li>
+<li>Advanced Custom Fields Pro (we have a license upon request).</li>
+<li>Gravity Forms (we have a license upon request).</li>
+<li><strong>Jeremy is going to add more here</strong>.</li>
+</ul></li>
+<li><strong>CDNs</strong>: We want to optimize load time and save bandwidth costs.  Web servers charge a lot for bandwidth and tend to be slower.  So, we use Rackspace CDN or Amazon S3.  There are plugins for WordPress available for these to upload your entire media library to it and replace URLs.  <em>Do it: Save us money, make the site load faster</em>.</li>
+<li><strong>Email Notifications</strong>: We love Gravity Forms--It sends notifications to specified email addresses.  Server sent emails can get blacklisted.  Use Postmark to send emails.  Install Postmark plugin in WordPress, enter our credentials and this will replace the stock send mail through WordPress with PostMark.  PostMark works everyday to ensure they are never blacklisted.  We trust them.</li>
+</ul>
+<h2>Deployment</h2>
+<ul>
+<li><strong>Use Git and Beanstalk</strong>: We need you to check-in your files to GIT and deploy through Beanstalk.  This way we have a working copy in our GIT repository.
+<ul>
+<li><a href="http://guides.beanstalkapp.com/deployments/deploying-wordpress.html" target="_blank" rel="nofollow" class="external-link no-image">Deploying Wordpress with Beanstalk</a></li>
+<li><a href="http://guides.beanstalkapp.com/deployments/best-practices.html" target="_blank" rel="nofollow" class="external-link no-image">Deployment Best Practices</a></li>
+<li><a href="http://guides.beanstalkapp.com/code-review/guide-to-code-review.html" target="_blank" rel="nofollow" class="external-link no-image">Code Review Workflow</a></li>
+</ul></li>
+<li><strong>Make Notes in GIT and Beanstalk</strong>: If you overwrite a WP database, make a backup and tell us you did so.  Whatever you did, make that note in GIT otherwise GIT is as useless as a file server.</li>
+<li><strong>Auto Prefixer and Minification</strong>: Before deploying, you need to use Auto Prefixer to ensure everything works seamlessly across platforms and minify your file for optimal load time.</li>
+<li><strong>Documentation</strong>: You're not an island.  Other developers will touch your work.  Make that experience easy for them.  Put a <em>readme.txt</em> file on the GIT repository of anything and everything that a developer should know.
+<ul>
+<li>A good example can be found <a href="https://bitbucket.org/situationinteractive/oneworldobservatory.com" target="_blank" rel="nofollow" class="external-link no-image">here</a></li>
+</ul></li>
+<li><strong>No Database References to Dev Server</strong>: If you are using WordPress or anything, please make sure that you replace any URLs in the database to match the live server, not the dev server.  Our dev server is wimpy and can't handle real traffic.</li>
+</ul>";

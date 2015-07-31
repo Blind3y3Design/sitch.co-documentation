@@ -1,0 +1,19 @@
+// Your custom SCSS should be written here...
+
+// Variables
+$core-accent: #c0d634;
+
+
+.grav-lightslider {
+    .lSSlideOuter {
+        .lSPager.lSpg {
+            > li a {
+                z-index: 1;
+            }
+        }
+    }
+}
+
+#body > script:first-child + .grav-lightslider {
+  margin-top: -3rem;
+}
